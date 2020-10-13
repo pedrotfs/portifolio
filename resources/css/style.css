@@ -12,7 +12,7 @@ html, body {
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden;
+    overflow-x: hidden;]   
 }
 
 .clearfix {zoom:1}
@@ -117,6 +117,13 @@ header {
 .main-navigation li a:active {
     border-bottom: 2px solid #2222de;
     
+}
+
+.main-navigation--not-decorate:hover, 
+.main-navigation--not-decorate:active,
+.main-navigation--not-decorate:link,
+.main-navigation--not-decorate:visited {
+    border-bottom: 0px solid transparent;
 }
 
 /*float navigation*/
@@ -238,6 +245,15 @@ header {
     background-repeat: no-repeat;
     float: right;    
     padding-bottom: 183px;
+}
+
+.section__experience--keyrus-us {
+    background-image: linear-gradient(rgba(251,251,251, 0.95), rgba(251,251,251, 0.95)), url(../img/keyrus_alt.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;    
+    padding-bottom: 160px;
 }
 
 .section__experience--rdi {
