@@ -10,6 +10,7 @@
     .hero-text-box {
         padding-left: 70px;
         font-size: 80%;
+        display: none;
     }
 }
 
@@ -28,6 +29,7 @@
         margin-left: 160px;
         margin-right: 60px;
         font-size: 70%;
+        display: none;
     }
 
     .about__portrait--header {
@@ -119,6 +121,7 @@
         margin-left: 400px;
         margin-right: 60px;
         font-size: 25%;
+        display: none;
     }
 
     .col {
