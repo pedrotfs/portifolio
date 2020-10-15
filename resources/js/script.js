@@ -1,9 +1,4 @@
 $(document).ready(() => {
-    /**test */
-    $(".logo").click(() => {
-        $("*").css("color", "#cc1111")
-    })
-
     /* sticky navigation */
     $(".js-about").waypoint((direction) => {
         if(direction == "down") {
