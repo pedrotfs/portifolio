@@ -12,7 +12,7 @@ html, body {
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden;]   
+    overflow-x: hidden;
 }
 
 .clearfix {zoom:1}
@@ -229,12 +229,30 @@ header {
     border-radius: 10px;
 }
 
+.section__experience--veloe {
+    background-image: linear-gradient(rgba(251,251,251, 0.95), rgba(251,251,251, 0.95)), url(../img/veloe.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    padding-bottom: 182px;
+}
+
+.section__experience--veloe-us {
+    background-image: linear-gradient(rgba(251,251,251, 0.95), rgba(251,251,251, 0.95)), url(../img/veloe.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    padding-bottom: 182px;
+}
+
 .section__experience--keyrus-tl {
     background-image: linear-gradient(rgba(251,251,251, 0.95), rgba(251,251,251, 0.95)), url(../img/keyrus_alt.jpeg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    float: left;
+    float: right;
     
 }
 
@@ -243,8 +261,7 @@ header {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    float: right;    
-    padding-bottom: 183px;
+    float: left;    
 }
 
 .section__experience--keyrus-us {
@@ -252,8 +269,8 @@ header {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    float: right;    
-    padding-bottom: 160px;
+    float: left;    
+    
 }
 
 .section__experience--rdi {
@@ -261,8 +278,17 @@ header {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    float: left;
-    padding-bottom: 58px;
+    float: right;
+    padding-bottom: 86px;
+}
+
+.section__experience--rdi-us {
+    background-image: linear-gradient(rgba(251,251,251, 0.95), rgba(251,251,251, 0.95)), url(../img/rdi.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+    padding-bottom: 86px;
 }
 
 .section__experience--maps {
@@ -270,7 +296,7 @@ header {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    float: right;    
+    float: left;    
 }
 
 .section__experience--unesp {
@@ -278,7 +304,17 @@ header {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    float: left;    
+    float: right;
+    padding-bottom: 164px;
+}
+
+.section__experience--unesp-us {
+    background-image: linear-gradient(rgba(251,251,251, 0.95), rgba(251,251,251, 0.95)), url(../img/unesp-logo-11.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+    padding-bottom: 186px;
 }
 
 .section__experience--bullets {
